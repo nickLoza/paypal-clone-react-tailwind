@@ -22,8 +22,8 @@ return (
 			<div className="flex items-center gap-x-4 bg-white p-4 text-xl rounded-xl border-2">
 				<BsPaypal/>
 				<div className="text-lg ">
-					<p className="font-semibold">Get the PayPal app</p>
-					<p className="text-base">Start doing more with PayPal</p>
+					<p className="font-semibold">Get the NotPayPal app</p>
+					<p className="text-base">Start doing more with NotPayPal</p>
 				</div>
 			</div>
 			{/*cards*/}

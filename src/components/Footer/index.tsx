@@ -1,3 +1,4 @@
+import { AiOutlineGithub } from "react-icons/ai";
 
 function Footer() {
   return (
@@ -44,29 +45,14 @@ function Footer() {
           </p>
         </div>
         <div className="flex justify-center mt-4">
-          <ul className="flex space-x-4">
+          <ul className="flex space-x-4 text">
             <li>
               <a
-                href="#"
-                className="text-gray-500 hover:text-gray-700 text-sm"
+                href="https://github.com/nickLoza/paypal-clone-react-tailwind"
+                className="text-gray-500 flex items-center gap-x-2 hover:text-gray-700 text-sm"
+                target="_blank"
               >
-                Privacy
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="text-gray-500 hover:text-gray-700 text-sm"
-              >
-                Cookies
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="text-gray-500 hover:text-gray-700 text-sm"
-              >
-                Legal
+                <AiOutlineGithub className="text-3xl"/> Repository
               </a>
             </li>
           </ul>
