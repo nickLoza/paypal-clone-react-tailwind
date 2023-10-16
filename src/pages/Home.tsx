@@ -28,7 +28,7 @@ return (
 			</div>
 			{/*cards*/}
 			<div className="flex items-center gap-x-4 text-white text-center mt-2">
-				<div className="min-h-[400px] min-w-[150px] m-auto bg-[#1040C1] py-4 px-2 rounded-xl">
+				<div className="min-h-[450px] min-w-[150px] m-auto bg-[#1040C1] py-4 px-2 rounded-xl">
 					<img src={paySomeoneImg} alt="get paid" height={170} width={160} className="m-auto"/>
 					<p className="text-3xl font-semibold mt-3">Pay someone</p>
 					<p className="max-w-[225px] text-lg m-auto my-5 font-medium">Pay for things that you bought or a service you received.</p>
@@ -36,7 +36,7 @@ return (
 						Send <br/> Payments
 					</button>
 				</div>
-				<div className="min-h-[400px] min-w-[150px] m-auto bg-[#121661] py-4 px-2 rounded-xl">
+				<div className="min-h-[455px] min-w-[150px] m-auto bg-[#121661] py-4 px-2 rounded-xl">
 					<img src={getPaidImg} alt="get paid" height={170} width={160} className="m-auto"/>
 					<p className="text-3xl font-semibold mt-3">Get paid</p>
 					<p className="max-w-[225px] text-lg m-auto my-5 font-medium">Get for selling something or for the work you did.</p>

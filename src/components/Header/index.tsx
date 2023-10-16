@@ -14,7 +14,7 @@ function Header() {
 
 	return (
 		<header className="bg-[#142C8E] h-[100px] w-full text-white">
-			<nav className={`lg:px-10 max-w-[1250px] h-full m-auto flex items-center justify-between py-4 px-4 text-2xl transition-all duration-300 ${isMenuOpen? "pl-[325px]" : ""}`}>
+			<nav className={`lg:px-10 max-w-[1250px] h-full m-auto flex items-center justify-between py-4 px-4 text-2xl transition-all duration-300 ${isMenuOpen? "pl-[310px]" : ""}`}>
 				<div className="flex">
 					{/*toggle menu*/}
 					<button className="lg:hidden" onClick={toggleMenu}>

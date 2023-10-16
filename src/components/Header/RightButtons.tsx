@@ -22,7 +22,7 @@ function RightButtons() {
 					</button>
 					<p className="hidden md:block text-sm font-semibold ml-4">LOG OUT</p>
 					{/*dropdown*/}
-				<div className={`absolute top-[40px] left-[-500px]  md:left-[-250px] z-[250] min-w-[400px] min-h-[500px] bg-[#F5F7FA] text-base text-black rounded-xl p-4 transition duration-200 ${toggleNotification? "opacity-1 pointer-events-all" : "opacity-0 pointer-events-none"}`}>
+				<div className={`border-[3px] absolute top-[40px] left-[-85vw]  sm:left-[-350px] z-[250] w-[90vw] sm:w-[350px] lg:min-w-[400px] min-h-[500px] bg-[#F5F7FA] text-base text-black rounded-xl p-4 transition duration-200 ${toggleNotification? "opacity-1 pointer-events-all" : "opacity-0 pointer-events-none"}`}>
 					{/*top buttons*/}
 					<div className="flex justify-center gap-x-8 text-white text-sm font-semibold">
 						<button className={`py-2 px-4 min-w-[140px] ${optionSelected === "notification"? "bg-[#0070BA]" : "text-black border-2"}`} onClick={()=>handleOnClickOptions("notification")}>

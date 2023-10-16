@@ -13,7 +13,7 @@ function TransferRender({type}:TransferRenderTypes) {
 
 
 	return (
-		<section className="p-4 flex flex-col items-center max-w-[1250px] m-auto">
+		<section className="flex flex-col items-center max-w-[1250px] m-auto">
 			{type === "send" && <Send/>}
 			{type === "request" && <Request/>}
 			{type === "contacts" && <Contacts/>}
@@ -27,7 +27,7 @@ function TransferRender({type}:TransferRenderTypes) {
 function Send(){
 	return (
 		<div className="flex flex-wrap justify-center gap-5">
-			<div className="min-w-[400px]">
+			<div className="min-w-[200px] w-[80%] lg:min-w-[400px]">
 				<h2 className="text-3xl font-semibold py-5">Send payment to</h2>
 				{/*input field*/}
 				<div className="flex items-center justify-between p-3 bg-transparent border-2 max-w-[500px] rounded-xl">
@@ -41,7 +41,7 @@ function Send(){
 					Next
 				</button>
 			</div>
-			<div className="text-xl w-[400px] mx-6 mt-10">
+			<div className="text-xl min-w-[200px] w-[80%] lg:min-w-[400px] mx-6 mt-10">
 				<h3 className="text-3xl">More ways to send</h3>
 				<div className="flex items-center gap-x-4">
 					<LuNewspaper className="text-4xl"/>
@@ -61,7 +61,7 @@ function Request(){
 
 	return (
 		<div className="flex flex-wrap justify-center gap-5">
-			<div className="min-w-[400px]">
+			<div className="min-w-[200px] w-[80%] lg:min-w-[400px]">
 				<h2 className="text-3xl font-semibold">Request payments from</h2>
 				<p className="text-lg my-2">You can request multiple payments from up to 20 people.</p>
 				{/*input field*/}
@@ -100,7 +100,7 @@ function Request(){
 
 function Contacts(){
 	return (
-		<section className="min-w-[400px] text-center">
+		<section className="min-w-[200px] w-[80%] lg:min-w-[400px] text-center">
 			<div>
 				<div className="flex items-center justify-between p-3 mb-4 bg-transparent border-2 max-w-[500px] rounded-xl m-auto">
 					<AiOutlineSearch/>

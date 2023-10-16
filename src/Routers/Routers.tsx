@@ -23,6 +23,7 @@ function Routers() {
 		        <Route path="/wallet" element={<Wallet />} />
 		        <Route path="/activity" element={<Activity />} />
 		        <Route path="/help" element={<Help />} />
+		        <Route path="*" element={<Home />} />
 		    </Routes>
 	    </Suspense>
 	)
